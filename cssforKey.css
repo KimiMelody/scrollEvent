@@ -1,0 +1,100 @@
+.header{
+    background-color:darkblue;
+    margin-top: -10px;
+    margin-right: -10px;
+    margin-left: -10px;
+
+
+}
+.topHead{
+    display: flex;
+    width:10%;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    display: block;
+    width:100%;
+    padding-left:10% ;
+    box-sizing: border-box;
+
+}
+.keyboardtopic{
+    display: block;
+    box-sizing: border-box;
+    padding-left: 10%;
+    width: 20%;
+    flex-grow: 1;
+    color:white;
+}
+
+.frame{
+    display:flex;
+    margin-top: -10px;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+.tab{
+    display: flex;
+    flex-direction: column;
+    background-color: dodgerblue;
+    width: 15%;
+}
+.hide{
+    display:none;
+}
+.show{
+    display:block;
+}
+
+
+.textChange{
+    color: white;
+}
+.platformTab{
+    background-color:cadetblue;
+    display: block;
+    justify-content: center;
+    padding-left: 5%;
+    box-sizing: border-box;
+    border: 2px darkblue solid;
+}
+
+.changeBox{
+    display: block;
+    justify-content: center;
+    padding-left: 5%;
+    box-sizing: border-box;
+    border: 2px darkblue solid;
+}
+.changeBox.changing{
+    background-color: darkblue;
+}
+
+.maincontain{
+    display:block;
+}
+
+.innerImg{
+    display:block;
+    width:100%;
+}
+
+.faceBook{
+
+    width: 50%;
+    padding-left: 100%;
+    justify-content: center;
+}
+
+
+.instaGram{
+    width: 40%;
+    padding-left: 60%;
+    justify-content: center;
+}
+
+.textInside{
+    justify-content: center;
+}

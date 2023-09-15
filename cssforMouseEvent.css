@@ -1,0 +1,92 @@
+
+.frame{
+    display:flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-image:url("D:/Work (Life)/Tony Stark/knowledge/season2/Event/component/signature.png");
+
+
+    margin-top: 10px;
+}
+.flexbox{
+    display:flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+
+
+    background-image:url("D:/Work (Life)/Tony Stark/knowledge/season2/Event/component/signature.png");
+}
+
+.displayBox{
+    width: 50%;
+}
+
+
+.item{
+    display: block;
+    box-sizing: border-box;
+    width:33.33%;
+
+}
+.content{
+    padding:10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.contentImg{
+    width: 80%;
+    border: 5px solid white;
+}
+
+.displayImg{
+    display: block;
+    box-sizing: border-box;
+    width: 50%;
+    margin-left:25%;
+    margin-top :20px;
+    margin-bottom:20px;
+
+}
+.Img{
+    width:100%;
+}
+
+.description{
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image:url("D:/Work (Life)/Tony Stark/knowledge/season2/Event/component/signature.png");
+    padding: 10px;
+    color: aliceblue;
+
+}
+
+.notShowF{
+    width:100%;
+}
+.notShowD{
+    display:none;
+}
+
+.ShowF{
+    display:flex;
+    width:50%;
+}
+.showD{
+    display:block;
+}
+
+.closeButton{
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    padding: 3px 5px;
+    position: absolute;
+    top: 0%;
+    right: 5%;
+
+}
